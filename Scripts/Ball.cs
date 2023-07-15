@@ -7,6 +7,7 @@ public class Ball : MonoBehaviour {
 
     private void Start() {
         rb = GetComponent<Rigidbody2D>();
+        rb.velocity = new Vector2 (-3, -2);
     }
 
     private void Update() {
