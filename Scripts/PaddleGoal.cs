@@ -10,7 +10,7 @@ public class PaddleGoal : MonoBehaviour {
 
     public int playerNum;
 
-    int Score = 9;
+    int Score = 10;
 
     private void OnTriggerEnter2D(Collider2D hitInfo) {
         Ball ball = hitInfo.GetComponent<Ball>();
