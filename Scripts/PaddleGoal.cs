@@ -18,7 +18,7 @@ public class PaddleGoal : MonoBehaviour {
             txt.SetText(Score.ToString());
 
             if (Score > 10) {
-                SceneManager.LoadScene("SimpleScene");
+                SceneManager.LoadScene("Game");
             }
         }
     }
