@@ -12,7 +12,6 @@ public class PaddleGoal : MonoBehaviour {
             ball.ResetBall();
 
             Score += 1;
-            Debug.Log(Score);
         }
     }
 }
