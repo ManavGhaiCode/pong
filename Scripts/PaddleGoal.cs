@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PaddleGoal : MonoBehaviour {
     public TextController txt;
@@ -15,6 +16,10 @@ public class PaddleGoal : MonoBehaviour {
 
             Score += 1;
             txt.SetText(Score.ToString());
+
+            if (Score > 10) {
+                SceneManager.LoadScene("SimpleScene");
+            }
         }
     }
 }
