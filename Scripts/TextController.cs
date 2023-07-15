@@ -1,9 +1,9 @@
 using UnityEngine;
 
 public class TextController : MonoBehaviour {
-    TextMesh txt;
+    public TMPro.TMP_Text txt;
 
-    void SetText(string str) {
+    public void SetText(string str) {
         txt.text = str;
     }
 }
