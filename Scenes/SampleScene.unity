@@ -581,8 +581,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 2
-  upButton: i
-  downButton: k
+  upButton: w
+  downButton: s
 --- !u!61 &1558369760
 BoxCollider2D:
   m_ObjectHideFlags: 0
