@@ -37,6 +37,6 @@ public class PaddleGoal : MonoBehaviour {
 
     private IEnumerator ResetScene() {
         yield return new WaitForSeconds (2f);
-        // SceneManager.LoadScene("Game");
+        SceneManager.LoadScene("Game");
     }
 }
